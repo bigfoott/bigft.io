@@ -59,7 +59,7 @@
 								<a href="<?= $info->thingiverse ?>" target="_blank" class="button is-small">
 									<span class="fa-stack">
 										<i class="far fa-stack-1x fa-circle" style="font-size: 1.2em;"></i>
-										<span class="fa-stack-1x no-select" style="font-size: 0.85em; font-family: \'Archivo Black\';">T</span>
+										<span class="fa-stack-1x no-select" style="font-size: 0.85em; font-family: 'Archivo Black';">T</span>
 									</span>
 								</a>
 							</div>
