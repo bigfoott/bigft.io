@@ -1,3 +1,4 @@
+<?php ?>
 <p>© 2021 Anthony</p>
 
 <a class="fa-stack" target="_blank" href="https://github.com/bigfoott" title="GitHub">
