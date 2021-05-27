@@ -1,0 +1,185 @@
+[
+    {
+        "name": "VR Speedrunning",
+        "languages": [
+            "C#",
+            "HTML/CSS",
+            "JS",
+            "PHP"
+        ],
+        "desc": "VR Speedrunning is a central hub to view the leaderboards for the top VR speedgames.\n\nAlong with the website, there is a [Twitter bot](https://twitter.com/VRSpeedruns) that posts new world records, and a Discord bot for the [VR Speedrunning Discord server](https://discord.gg/7PKWZuW).",
+        "links": [
+            {
+                "name": "Site",
+                "link": "https://bigft.io/vrsr",
+                "external": false,
+                "disabled": false
+            },
+            {
+                "name": "Repo",
+                "link": "https://github.com/bigfoott/VRSR",
+                "external": true,
+                "disabled": false
+            }
+        ]
+    },
+    {
+        "name": "VR Laser Game",
+        "languages": [
+            "C#"
+        ],
+        "desc": "VR Laser Game is a work in progress puzzle game in VR using [Unity](https://unity.com/) that i've been iterating on for a few years.",
+        "links": [
+            {
+                "name": "Site",
+                "link": "#",
+                "external": false,
+                "disabled": true
+            }
+        ]
+    },
+    {
+        "name": "BigftioBot",
+        "languages": [
+            "C#",
+            "HTML/CSS",
+            "JS",
+            "PHP"
+        ],
+        "desc": "BigftioBot is a [Twitch](https://twitch.tv/) chat bot. Features include custom commands, quotes, moderation tools, and more.",
+        "links": [
+            {
+                "name": "Site",
+                "link": "https://bigft.io/bot",
+                "external": false,
+                "disabled": false
+            },
+            {
+                "name": "Repo",
+                "link": "https://github.com/bigfoott/BigftioBot",
+                "external": true,
+                "disabled": false
+            }
+        ]
+    },
+    {
+        "name": "URBot",
+        "languages": [
+            "C#",
+            "HTML/CSS"
+        ],
+        "desc": "URBot is a verified [Discord](https://discord.com/) bot made for the roleplaying web show [URealms](https://urealms.com/).\n\nI stopped maintaining this bot in October 2019, however for now the bot is still active and can be added to new servers.",
+        "links": [
+            {
+                "name": "Site",
+                "link": "https://bigft.io/urbot",
+                "external": false,
+                "disabled": false
+            }
+        ]
+    },
+    {
+        "name": "TalosVR SR",
+        "languages": [
+            "HTML/CSS"
+        ],
+        "desc": "Talos VR Speedrunning Resource is a site that hosts useful strats and tricks for [The Talos Principle VR](https://store.steampowered.com/app/552440/The_Talos_Principle_VR/) speedruns.",
+        "links": [
+            {
+                "name": "Site",
+                "link": "https://bigft.io/talosvr",
+                "external": false,
+                "disabled": false
+            },
+            {
+                "name": "Repo",
+                "link": "https://github.com/bigfoott/TalosVRSRResource",
+                "external": true,
+                "disabled": false
+            }
+        ]
+    },
+    {
+        "name": "BBot V2",
+        "languages": [
+            "C#"
+        ],
+        "desc": "BBot V2 is an open source rewrite of my general purpose [Discord](https://discord.com/) bot.\n\nIt can't be added to public servers, however the source is available on Github.",
+        "links": [
+            {
+                "name": "Repo",
+                "link": "https://github.com/bigfoott/BBotV2",
+                "external": true,
+                "disabled": false
+            }
+        ]
+    },
+    {
+        "name": "FCDisplay",
+        "languages": [
+            "C#"
+        ],
+        "desc": "FCDisplay was a mod for [Beat Saber](https://beatsaber.com/) that added a visual element to the game when the user hasn't missed a note.\n\nI stopped maintaining the mod when an official version of this feature was added to the game.",
+        "links": [
+            {
+                "name": "Repo",
+                "link": "https://github.com/bigfoott/FCDisplay",
+                "external": true,
+                "disabled": false
+            }
+        ]
+    },
+    {
+        "name": "ImmersiveMode",
+        "languages": [
+            "C#"
+        ],
+        "desc": "ImmersiveMode was a mod for [Beat Saber](https://beatsaber.com/) that disabled all UI while in a song, either just in-headset, just in the mirror, or both.\n\nI stopped maintaining the mod when an official version of this feature was added to the game.",
+        "links": [
+            {
+                "name": "Repo",
+                "link": "https://github.com/bigfoott/ImmersiveMode",
+                "external": true,
+                "disabled": false
+            }
+        ]
+    },
+    {
+        "name": "StreamInfo",
+        "languages": [
+            "C#",
+            "HTML/CSS"
+        ],
+        "desc": "StreamInfo was a mod for [Beat Saber](https://beatsaber.com/) that allowed players to display game info as an overlay on their streams or videos.\n\nI stopped maintaining the mod when an official version of this feature was added to the game.",
+        "links": [
+            {
+                "name": "Site",
+                "link": "https://bigft.io/streaminfo",
+                "external": false,
+                "disabled": false
+            },
+            {
+                "name": "Repo",
+                "link": "https://github.com/bigfoott/BeatSaberStreamInfo",
+                "external": true,
+                "disabled": false
+            }
+        ]
+    },
+    {
+        "name": "BBot",
+        "languages": [
+            "C#",
+            "HTML/CSS"
+        ],
+        "desc": "BBot is my first real attempt at making a [Discord](https://discord.com/) bot.",
+        "links": [
+            {
+                "name": "Site",
+                "link": "https://bigft.io/bbot",
+                "external": false,
+                "disabled": false
+            }
+        ]
+    }
+]
