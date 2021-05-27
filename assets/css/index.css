@@ -269,6 +269,9 @@ a:hover {
 .project > .links > .button:hover:not(.disabled) {
     background-color: var(--link-hover-color);
 }
+.project > .links > .button:not(:last-child) {
+    margin-right: 0.35em;
+}
 .project > .links > .button > i {
     margin-left: 0.3em;
 }
@@ -279,6 +282,9 @@ a:hover {
     padding-right: 0.25em;
     color: white;
     font-family: 'Inconsolata';
+}
+.tag.is-small:not(:last-child) {
+    margin-right: 0.35em;
 }
 .tag.csharp {
     background-color: #75388a!important;
@@ -311,4 +317,18 @@ a:hover {
 
 .foot {
     background-color: var(--card-background-color);
+    text-align: center;
+    font-size: 0.75em;
+}
+.foot > p {
+    margin-bottom: 1em;
+}
+.foot > a {
+    color: var(--link-color);
+}
+.foot > a:not(:last-child) {
+    margin-right: -0.5em;
+}
+.foot > a:hover {
+    color: var(--link-hover-color);
 }

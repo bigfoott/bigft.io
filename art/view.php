@@ -14,13 +14,16 @@
 	
 	<link rel="icon" href="/images/favicon.png">
 	
-	<title>Anthony</title>
+	<title>Anthony - <?= $info->name; ?></title>
 	
 	<meta content="Bigft.io" property="og:site_name">
-	<meta content="Anthony" property="og:title">
-	<meta content="#9d49b9" name="theme-color">
+	<meta content="Anthony - <?= $info->name; ?>" property="og:title">
+	<meta content="#c46be2" name="theme-color">
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:title" content="Anthony" />
+	<meta name="twitter:title" content="Anthony - <?= $info->name; ?>" />
+	<meta name="twitter:image" content="https://bigft.io/art/<?= $page; ?>/banner.png" />
+	<meta name="og:image" content="https://bigft.io/art/<?= $page; ?>/banner.png" />
+	<meta name="og:image:alt" content="<?= $info->name; ?>>" />
 	
 	<script src="https://kit.fontawesome.com/d16c543bf8.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
@@ -53,7 +56,7 @@
                 <div class="column is-1 is-hidden-mobile"></div>
                 <div class="column is-4">
                     <div class="art-desc">
-                        <h1 class="title is-size-4-tablet is-size-5-mobile"><?php echo $info->name; ?></h1>
+                        <h1 class="title is-size-4-tablet is-size-5-mobile"><?= $info->name; ?></h1>
                         <div class="is-size-6-tablet is-size-7-mobile">
                             <?php
                                 $Parsedown = new Parsedown();
@@ -61,7 +64,7 @@
                                 echo $Parsedown->text($info->desc);
                             ?>
                         </div>
-                        <a class="button is-size-6-tablet is-size-7-mobile thingiverse-button" href="<?php echo $info->thingiverse; ?>" target="_blank">
+                        <a class="button is-size-6-tablet is-size-7-mobile thingiverse-button" href="<?= $info->thingiverse; ?>" target="_blank">
                             <span class="fa-stack">
                                 <i class="far fa-stack-1x fa-circle" style="color: white; font-size: 1.25em;"></i>
                                 <span class="fa-stack-1x no-select" style="color: white; font-size: 0.85em; font-family: 'Archivo Black';">T</span>
@@ -72,7 +75,7 @@
                 </div>
                 <div class="column is-7">
                     <div class="model-viewer-container">
-                        <model-viewer src="/art/<?php echo $page; ?>/model.glb" auto-rotate camera-controls camera-target="0m -15m 0m" camera-orbit="45deg 30deg 175m" min-camera-orbit="-Infinity 0deg auto" max-camera-orbit="Infinity 60deg 175m" exposure="0.75"></model-viewer>
+                        <model-viewer src="/art/<?= $page; ?>/model.glb" auto-rotate camera-controls camera-target="0m -15m 0m" camera-orbit="45deg 30deg 175m" min-camera-orbit="-Infinity 0deg auto" max-camera-orbit="Infinity 60deg 175m" exposure="0.75"></model-viewer>
                     </div>
                 </div>
             </div>
@@ -129,13 +132,13 @@
         </div>
     </section>
     <section class="section foot">
-
+        <?php include $_SERVER['DOCUMENT_ROOT'].'/assets/php/index/footer.php'; ?>
     </section>
 
     <script src="https://unpkg.com/@glidejs/glide@3.4.1/dist/glide.min.js"></script>
     <script>
-        var page = "<?php echo $page; ?>";
-        var count = <?php echo $count ?>;
+        var page = "<?= $page; ?>";
+        var count = <?= $count ?>;
         new Glide('.glide', {
             type: 'carousel',
             autoplay: 5000,

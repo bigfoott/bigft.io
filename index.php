@@ -11,7 +11,7 @@
 	
 	<meta content="Bigft.io" property="og:site_name">
 	<meta content="Anthony" property="og:title">
-	<meta content="#9d49b9" name="theme-color">
+	<meta content="#c46be2" name="theme-color">
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:title" content="Anthony" />
 	
