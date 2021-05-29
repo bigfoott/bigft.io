@@ -1,3 +1,7 @@
+:root {
+    --poster-color: transparent;
+}
+
 .is-art {
     background-color: var(--card-background-color);
 }
@@ -62,15 +66,6 @@
     }
 }
 
-.thingiverse-button {
-    width: 100%;
-}
-@media only screen and (max-width: 768px) {
-    .thingiverse-button {
-        width: 100%;
-    }
-}
-
 .topbar > .is-back-button {
     position: absolute;
     left: 0;
@@ -84,6 +79,8 @@
 
 .art-desc {
     margin-top: 2em;
+    position: relative;
+    height: calc(100% - 2em);
 }
 @media only screen and (max-width: 768px) {
     .art-desc {
@@ -92,12 +89,22 @@
 }
 .art-desc > .button {
     text-decoration: none;
-    margin-top: 2em;
+    
     background-color: var(--link-color);
     color: var(--text-color);
     border: none;
     text-align: left;
     padding-left: calc(.625em - 1px);
+    width: 100%;
+
+    position: absolute;
+    bottom: 2em;
+}
+@media only screen and (max-width: 768px) {
+    .art-desc > .button {
+        position: static;
+        margin-top: 2em;
+    }
 }
 .art-desc > .button:hover, .art-desc > .button:focus {
     background-color: var(--link-hover-color);

@@ -8,8 +8,9 @@
 <head>	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<link rel="icon" href="/images/favicon.png">
+		
+	<link rel="icon" href="/images/fav_light.png">
+	<link rel="icon" href="/images/fav_dark.png" media="(prefers-color-scheme:dark)">
 	
 	<title>Portfolio - Anthony</title>
 	
@@ -95,7 +96,7 @@
         </div>
     </section>
     <section class="section foot">
-        <?php include $_SERVER['DOCUMENT_ROOT'].'/assets/php/index/footer.php'; ?>
+        <?php include $_SERVER['DOCUMENT_ROOT'].'/assets/php/footer.php'; ?>
     </section>
 
     <script src="/assets/js/index.js"></script>

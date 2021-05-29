@@ -69,8 +69,6 @@ a:hover {
     margin-top: 1em;
     text-align: center;
 }
-.mobile-icons > a:not(:last-child) {
-}
 
 .icon.one { transform: rotate(30deg) translate(-6em); }
 .icon.two { transform: rotate(0deg) translate(-6em); }

@@ -4,7 +4,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<link rel="icon" href="/images/favicon.png">
+	<link rel="icon" href="/images/fav_light.png">
+	<link rel="icon" href="/images/fav_dark.png" media="(prefers-color-scheme:dark)">
 	
 	<title>Art - Anthony</title>
 	
@@ -43,19 +44,19 @@
             <div class="columns is-centered is-multiline mobile-side-padding">
                 <?php
 					$artOrder = json_decode(file_get_contents($_SERVER['DOCUMENT_ROOT']."/art/order.json"));
-					for ($i = 0; $i < sizeof($artOrder->dirs); $i++)
+					for ($i = 0; $i < sizeof($artOrder); $i++)
 					{
-                        $info = json_decode(file_get_contents($artOrder->dirs[$i]."/info.json"));
+                        $info = json_decode(file_get_contents($artOrder[$i]."/info.json"));
 				?>
 				<div class="column is-5">
 					<div class="is-art">
-						<a href="<?= $artOrder->dirs[$i] ?>">
-							<div class="art-banner"><img src="<?= $artOrder->dirs[$i] ?>/banner.png"></div>
+						<a href="<?= $artOrder[$i] ?>">
+							<div class="art-banner"><img src="<?= $artOrder[$i] ?>/banner.png"></div>
 						</a>
 						<div class="art-banner-bottom">
 							<h1 class="title is-size-5-tablet is-size-7-mobile"><?= $info->name ?></h1>
 							<div class="art-banner-buttons is-hidden-mobile">
-								<a href="<?= $artOrder->dirs[$i] ?>" class="button is-small"><span class="fas fa-info-circle"></span></a>
+								<a href="<?= $artOrder[$i] ?>" class="button is-small"><span class="fas fa-info-circle"></span></a>
 								<a href="<?= $info->thingiverse ?>" target="_blank" class="button is-small">
 									<span class="fa-stack">
 										<i class="far fa-stack-1x fa-circle" style="font-size: 1.2em;"></i>
@@ -71,7 +72,7 @@
         </div>
     </section>
     <section class="section foot">
-        <?php include $_SERVER['DOCUMENT_ROOT'].'/assets/php/index/footer.php'; ?>
+        <?php include $_SERVER['DOCUMENT_ROOT'].'/assets/php/footer.php'; ?>
     </section>
 
     <script src="/assets/js/index.js"></script>

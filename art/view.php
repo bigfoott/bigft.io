@@ -12,7 +12,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<link rel="icon" href="/images/favicon.png">
+	<link rel="icon" href="/images/fav_light.png">
+	<link rel="icon" href="/images/fav_dark.png" media="(prefers-color-scheme:dark)">
 	
 	<title><?= $info->name; ?> - Anthony</title>
 	
@@ -23,7 +24,9 @@
 	<meta name="twitter:title" content="<?= $info->name; ?> - Anthony" />
 	<meta name="twitter:image" content="https://bigft.io/art/<?= $page; ?>/banner.png" />
 	<meta name="og:image" content="https://bigft.io/art/<?= $page; ?>/banner.png" />
-	<meta name="og:image:alt" content="<?= $info->name; ?>>" />
+	<meta name="og:image:alt" content="<?= $info->name; ?>" />
+	<meta name="og:description" content="<?= $info->short_desc; ?>" />
+	<meta name="twitter:description" content="<?= $info->short_desc; ?>" />
 	
 	<script src="https://kit.fontawesome.com/d16c543bf8.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
@@ -132,7 +135,7 @@
         </div>
     </section>
     <section class="section foot">
-        <?php include $_SERVER['DOCUMENT_ROOT'].'/assets/php/index/footer.php'; ?>
+        <?php include $_SERVER['DOCUMENT_ROOT'].'/assets/php/footer.php'; ?>
     </section>
 
     <script src="https://unpkg.com/@glidejs/glide@3.4.1/dist/glide.min.js"></script>
