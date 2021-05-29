@@ -6,13 +6,13 @@
 	
 	<link rel="icon" href="/images/favicon.png">
 	
-	<title>Anthony - Art</title>
+	<title>Art - Anthony</title>
 	
 	<meta content="Bigft.io" property="og:site_name">
-	<meta content="Anthony" property="og:title">
+	<meta content="Art - Anthony" property="og:title">
 	<meta content="#c46be2" name="theme-color">
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:title" content="Anthony - Art" />
+	<meta name="twitter:title" content="Art - Anthony" />
 	
 	<script src="https://kit.fontawesome.com/d16c543bf8.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
@@ -42,20 +42,20 @@
         <div class="container">
             <div class="columns is-centered is-multiline mobile-side-padding">
                 <?php
-					$all = json_decode(file_get_contents("order.json"));
-					for ($i = 0; $i < sizeof($all); $i++)
+					$artOrder = json_decode(file_get_contents($_SERVER['DOCUMENT_ROOT']."/art/order.json"));
+					for ($i = 0; $i < sizeof($artOrder->dirs); $i++)
 					{
-                        $info = json_decode(file_get_contents($all[$i]."/info.json"));
+                        $info = json_decode(file_get_contents($artOrder->dirs[$i]."/info.json"));
 				?>
 				<div class="column is-5">
 					<div class="is-art">
-						<a href="<?= $all[$i] ?>">
-							<div class="art-banner"><img src="<?= $all[$i] ?>/banner.png"></div>
+						<a href="<?= $artOrder->dirs[$i] ?>">
+							<div class="art-banner"><img src="<?= $artOrder->dirs[$i] ?>/banner.png"></div>
 						</a>
 						<div class="art-banner-bottom">
 							<h1 class="title is-size-5-tablet is-size-7-mobile"><?= $info->name ?></h1>
 							<div class="art-banner-buttons is-hidden-mobile">
-								<a href="<?= $all[$i] ?>" class="button is-small"><span class="fas fa-info-circle"></span></a>
+								<a href="<?= $artOrder->dirs[$i] ?>" class="button is-small"><span class="fas fa-info-circle"></span></a>
 								<a href="<?= $info->thingiverse ?>" target="_blank" class="button is-small">
 									<span class="fa-stack">
 										<i class="far fa-stack-1x fa-circle" style="font-size: 1.2em;"></i>

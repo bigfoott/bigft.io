@@ -14,13 +14,13 @@
 	
 	<link rel="icon" href="/images/favicon.png">
 	
-	<title>Anthony - <?= $info->name; ?></title>
+	<title><?= $info->name; ?> - Anthony</title>
 	
 	<meta content="Bigft.io" property="og:site_name">
-	<meta content="Anthony - <?= $info->name; ?>" property="og:title">
+	<meta content="<?= $info->name; ?> - Anthony" property="og:title">
 	<meta content="#c46be2" name="theme-color">
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:title" content="Anthony - <?= $info->name; ?>" />
+	<meta name="twitter:title" content="<?= $info->name; ?> - Anthony" />
 	<meta name="twitter:image" content="https://bigft.io/art/<?= $page; ?>/banner.png" />
 	<meta name="og:image" content="https://bigft.io/art/<?= $page; ?>/banner.png" />
 	<meta name="og:image:alt" content="<?= $info->name; ?>>" />

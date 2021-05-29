@@ -11,13 +11,13 @@
 	
 	<link rel="icon" href="/images/favicon.png">
 	
-	<title>Anthony - Portfolio</title>
+	<title>Portfolio - Anthony</title>
 	
 	<meta content="Bigft.io" property="og:site_name">
-	<meta content="Anthony - Portfolio" property="og:title">
+	<meta content="Portfolio - Anthony" property="og:title">
 	<meta content="#c46be2" name="theme-color">
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:title" content="Anthony - Portfolio" />
+	<meta name="twitter:title" content="Portfolio - Anthony" />
 	
 	<script src="https://kit.fontawesome.com/d16c543bf8.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
