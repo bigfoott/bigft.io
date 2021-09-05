@@ -11,21 +11,16 @@
 	
 	<meta content="Bigft.io" property="og:site_name">
 	<meta content="Art - Anthony" property="og:title">
-	<meta content="#c46be2" name="theme-color">
+	<meta content="#894FC8" name="theme-color">
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:title" content="Art - Anthony" />
 	
-	<script src="https://kit.fontawesome.com/d16c543bf8.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+	<link href="/assets/fa/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="/assets/css/bulma.min.css">
 	<link rel="stylesheet" href="/assets/css/index.css">
 	<link rel="stylesheet" href="/assets/css/art.css">
 
-    <link href="/assets/css/bulma-carousel.min.css" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=block" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=block" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=block" rel="stylesheet">
+	<link rel="stylesheet" href="/assets/css/googlefonts.css">
 </head>
 <body onload="onLoad();">
     <section class="section section-cols" style="min-height: 100vh;">

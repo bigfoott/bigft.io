@@ -19,7 +19,7 @@
 	
 	<meta content="Bigft.io" property="og:site_name">
 	<meta content="<?= $info->name; ?> - Anthony" property="og:title">
-	<meta content="#c46be2" name="theme-color">
+	<meta content="#894FC8" name="theme-color">
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:title" content="<?= $info->name; ?> - Anthony" />
 	<meta name="twitter:image" content="https://bigft.io/art/<?= $page; ?>/banner.png" />
@@ -28,17 +28,14 @@
 	<meta name="og:description" content="<?= $info->short_desc; ?>" />
 	<meta name="twitter:description" content="<?= $info->short_desc; ?>" />
 	
-	<script src="https://kit.fontawesome.com/d16c543bf8.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <link href="/assets/fa/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="/assets/css/bulma.min.css">
 	<link rel="stylesheet" href="/assets/css/index.css">
 	<link rel="stylesheet" href="/assets/css/art.css">
-    <link rel="stylesheet" href="https://unpkg.com/@glidejs/glide@3.4.1/dist/css/glide.core.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/@glidejs/glide/dist/css/glide.theme.min.css">
+    <link rel="stylesheet" href="/assets/css/glide.core.min.css">
+    <link rel="stylesheet" href="/assets/css/glide.theme.min.css">
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=block" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=block" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=block" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/googlefonts.css">
 </head>
 <body onload="onLoad(); artLoad();" style="min-height: 100vh;">
     <section class="section">
@@ -46,7 +43,7 @@
             <div class="columns is-centered">
                 <div class="column is-10 topbar-container view-page">
 					<div class="topbar">
-						<a class="is-size-5-tablet is-size-7-mobile is-back-button" href="/art"><i class="fas fa-arrow-left"></i> Back</a>
+						<a class="is-size-5-tablet is-size-7-mobile is-back-button" onclick="history.go(-1);"><i class="fas fa-arrow-left"></i> Back</a>
 						<a class="is-size-5-tablet is-size-7-mobile" href="/">Home</a>
 						<a class="is-size-5-tablet is-size-7-mobile" href="/portfolio">Portfolio</a>
 						<a class="is-size-5-tablet is-size-7-mobile thispage" href="/art">Art</a>
@@ -138,7 +135,7 @@
         <?php include $_SERVER['DOCUMENT_ROOT'].'/assets/php/footer.php'; ?>
     </section>
 
-    <script src="https://unpkg.com/@glidejs/glide@3.4.1/dist/glide.min.js"></script>
+    <script src="/assets/js/glide.min.js"></script>
     <script>
         var page = "<?= $page; ?>";
         var count = <?= $count ?>;
@@ -151,6 +148,6 @@
     </script>
     <script src="/assets/js/index.js"></script>
     <script src="/assets/js/art.js"></script>
-    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script type="module" src="/assets/js/model-viewer.min.js"></script>
 </body>
 </html>

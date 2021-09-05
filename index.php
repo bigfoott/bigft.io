@@ -25,8 +25,6 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
 	<link rel="stylesheet" href="/assets/css/index.css">
 
-    <link href="/assets/css/bulma-carousel.min.css" rel="stylesheet">
-
     <link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=block" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=block" rel="stylesheet">
@@ -34,7 +32,7 @@
 </head>
 <body onload="onLoad();">
     <section class="section" style="height: 100vh;">
-        <div class="columns is-vcentered" style="height: 100%">
+        <div class="columns is-vcentered">
             <div class="column is-12">
                 <div class="container">
                     <div class="columns is-vcentered is-centered">

@@ -98,11 +98,23 @@ a:hover {
     -webkit-box-align: center;
        -ms-flex-align: center;
           align-items: center;
+    
+    height: 100%;
+}
+@media only screen and (max-width: 768px) {
+    .columns.is-vcentered {
+        height: auto;
+    }
 }
 
 .section.section-cols {
     padding-left: 0.75em;
     padding-right: 0.75em;
+}
+@media only screen and (max-width: 768px) {
+    .section.section-cols {
+        padding-top: 1em;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -346,4 +358,20 @@ a:hover {
 }
 .foot > a:hover {
     color: var(--link-hover-color);
+}
+
+.tippy-box[data-theme~='main'] {
+	background-color: var(--card-background-color);
+}
+.tippy-box[data-theme~='main'][data-placement^='top'] > .tippy-arrow::before {
+	border-top-color: var(--card-background-color);
+}
+	.tippy-box[data-theme~='main'][data-placement^='bottom'] > .tippy-arrow::before {
+	border-bottom-color: var(--card-background-color);
+}
+	.tippy-box[data-theme~='main'][data-placement^='left'] > .tippy-arrow::before {
+	border-left-color: var(--card-background-color);
+}
+	.tippy-box[data-theme~='main'][data-placement^='right'] > .tippy-arrow::before {
+	border-right-color: var(--card-background-color);
 }
