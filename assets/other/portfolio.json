@@ -1,40 +1,25 @@
 [
     {
-        "name": "VR Speedrunning",
+        "name": "VRSpeed.run",
         "languages": [
             "C#",
             "HTML/CSS",
             "JS",
             "PHP"
         ],
-        "desc": "VR Speedrunning is a central hub to view the leaderboards for the top VR speedgames.\n\nAlong with the website, there is a [Twitter bot](https://twitter.com/VRSpeedruns) that posts new world records, and a Discord bot for the [VR Speedrunning Discord server](https://discord.gg/7PKWZuW).",
+        "desc": "VRSpeed.run is a central hub to view the leaderboards for the largest virtual reality games in speedrunning.\n\nThere are a few other projects such as a Twitter and Discord bot along side the website. Check them out at the GitHub organization below.",
         "links": [
             {
                 "name": "Site",
-                "link": "https://bigft.io/vrsr",
-                "external": false,
+                "link": "https://vrspeed.run",
+                "external": true,
                 "disabled": false
             },
             {
-                "name": "Repo",
-                "link": "https://github.com/bigfoott/VRSR",
+                "name": "Repos",
+                "link": "https://github.com/VRSpeedruns",
                 "external": true,
                 "disabled": false
-            }
-        ]
-    },
-    {
-        "name": "VR Laser Game",
-        "languages": [
-            "C#"
-        ],
-        "desc": "VR Laser Game is a work in progress puzzle game in VR using [Unity](https://unity.com/) that i've been iterating on for a few years.",
-        "links": [
-            {
-                "name": "Site",
-                "link": "#",
-                "external": false,
-                "disabled": true
             }
         ]
     },
@@ -46,13 +31,13 @@
             "JS",
             "PHP"
         ],
-        "desc": "BigftioBot is a [Twitch](https://twitch.tv/) chat bot. Features include custom commands, quotes, moderation tools, and more.",
+        "desc": "BigftioBot was a [Twitch](https://twitch.tv/) chat bot. Features included custom commands, quotes, moderation tools, and more.",
         "links": [
             {
                 "name": "Site",
                 "link": "https://bigft.io/bot",
                 "external": false,
-                "disabled": false
+                "disabled": true
             },
             {
                 "name": "Repo",
@@ -74,42 +59,6 @@
                 "name": "Site",
                 "link": "https://bigft.io/urbot",
                 "external": false,
-                "disabled": false
-            }
-        ]
-    },
-    {
-        "name": "TalosVR SR",
-        "languages": [
-            "HTML/CSS"
-        ],
-        "desc": "Talos VR Speedrunning Resource is a site that hosts useful strats and tricks for [The Talos Principle VR](https://store.steampowered.com/app/552440/The_Talos_Principle_VR/) speedruns.",
-        "links": [
-            {
-                "name": "Site",
-                "link": "https://bigft.io/talosvr",
-                "external": false,
-                "disabled": false
-            },
-            {
-                "name": "Repo",
-                "link": "https://github.com/bigfoott/TalosVRSRResource",
-                "external": true,
-                "disabled": false
-            }
-        ]
-    },
-    {
-        "name": "BBot V2",
-        "languages": [
-            "C#"
-        ],
-        "desc": "BBot V2 is an open source rewrite of my general purpose [Discord](https://discord.com/) bot.\n\nIt can't be added to public servers, however the source is available on Github.",
-        "links": [
-            {
-                "name": "Repo",
-                "link": "https://github.com/bigfoott/BBotV2",
-                "external": true,
                 "disabled": false
             }
         ]
@@ -162,22 +111,6 @@
                 "name": "Repo",
                 "link": "https://github.com/bigfoott/BeatSaberStreamInfo",
                 "external": true,
-                "disabled": false
-            }
-        ]
-    },
-    {
-        "name": "BBot",
-        "languages": [
-            "C#",
-            "HTML/CSS"
-        ],
-        "desc": "BBot is my first real attempt at making a [Discord](https://discord.com/) bot.",
-        "links": [
-            {
-                "name": "Site",
-                "link": "https://bigft.io/bbot",
-                "external": false,
                 "disabled": false
             }
         ]

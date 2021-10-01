@@ -87,12 +87,42 @@ a:hover {
     text-align: center;
 }
 
-.icon.one { transform: rotate(30deg) translate(-6em); }
-.icon.two { transform: rotate(0deg) translate(-6em); }
-.icon.three { transform: rotate(-30deg) translate(-6em); }
+.icon.one { transform: rotate(30deg) translate(-6em); animation: 1s ease-out 0s 1 slideOutOne; }
+.icon.two { transform: rotate(0deg) translate(-6em); animation: 1s ease-out 0s 1 slideOutTwo; }
+.icon.three { transform: rotate(-30deg) translate(-6em); animation: 1s ease-out 0s 1 slideOutThree; }
 .icon.one > a { transform: rotate(-30deg); }
 .icon.two > a { transform: rotate(0deg);}
 .icon.three > a { transform: rotate(30deg);}
+
+@keyframes slideOutOne {
+    0% {
+        transform: rotate(0) translate(0);
+    }
+    100% {
+        transform: rotate(30deg) translate(-6em);
+    }
+}
+@keyframes slideOutTwo {
+    0% {
+        transform: rotate(0) translate(0);
+    }
+    100% {
+        transform: rotate(0deg) translate(-6em);
+    }
+}
+@keyframes slideOutThree {
+    0% {
+        transform: rotate(0) translate(0);
+    }
+    100% {
+        transform: rotate(-30deg) translate(-6em);
+    }
+}
+
+img.is-rounded {
+    position: relative;
+    z-index: 2;
+}
 
 .columns.is-vcentered {
     -webkit-box-align: center;
@@ -348,7 +378,7 @@ a:hover {
     font-size: 0.75em;
 }
 .foot > p {
-    margin-bottom: 1em;
+    margin-top: 1em;
 }
 .foot > a {
     color: var(--link-color);

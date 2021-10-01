@@ -1,4 +1,4 @@
-<?php ?>
+ <?php ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>	
@@ -12,7 +12,7 @@
 	
 	<meta content="Bigft.io" property="og:site_name">
 	<meta content="Anthony" property="og:title">
-	<meta content="#c46be2" name="theme-color">
+	<meta content="#894FC8" name="theme-color">
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:title" content="Anthony" />
 	<meta name="twitter:image" content="https://bigft.io/images/me.jpg" />
@@ -21,14 +21,11 @@
 	<meta name="og:description" content="Hello! I'm Anthony, a Computer Science undergrad from New Jersey with a strong interest in virtual reality." />
 	<meta name="twitter:description" content="Hello! I'm Anthony, a Computer Science undergrad from New Jersey with a strong interest in virtual reality." />
 	
-	<script src="https://kit.fontawesome.com/d16c543bf8.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+	<link href="/assets/fa/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="/assets/css/bulma.min.css">
 	<link rel="stylesheet" href="/assets/css/index.css">
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=block" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=block" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=block" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/googlefonts.css">
 </head>
 <body onload="onLoad();">
     <section class="section" style="height: 100vh;">
@@ -67,19 +64,19 @@
                                 <img class="is-rounded no-select" src="/images/me.jpg">
                                 <div class="icons">
                                     <div class="icon one">
-                                        <a class="fa-stack" title="GitHub" target="_blank" href="https://github.com/bigfoott">
+                                        <a class="fa-stack" id="icon-github" target="_blank" href="https://github.com/bigfoott">
                                             <i class="fas fa-stack-2x fa-square"></i>
                                             <i class="fab fa-stack-1x fa-github" style="color: white;"></i>
                                         </a>
                                     </div>
                                     <div class="icon two">
-                                        <a class="fa-stack" title="Twitter" target="_blank" href="https://twitter.com/bigfoootttt">
+                                        <a class="fa-stack" id="icon-twitter" target="_blank" href="https://twitter.com/bigfoootttt">
                                             <i class="fas fa-stack-2x fa-square"></i>
                                             <i class="fab fa-stack-1x fa-twitter" style="color: white;"></i>
                                         </a>
                                     </div>
                                     <div class="icon three">
-                                        <a class="fa-stack" title="Thingiverse" target="_blank" href="https://www.thingiverse.com/bigfoott">
+                                        <a class="fa-stack" id="icon-thingiverse" target="_blank" href="https://www.thingiverse.com/bigfoott">
                                             <i class="fas fa-stack-2x fa-square"></i>
                                             <i class="far fa-stack-1x fa-circle" style="color: white; font-size: 1.25em;"></i>
                                             <span class="fa-stack-1x no-select" style="color: white; font-size: 0.85em; font-family: 'Archivo Black';">T</span>
@@ -94,6 +91,27 @@
         </div>
     </section>
     <script src="/assets/js/index.js"></script>
+    <script type="text/javascript" src="/assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="/assets/js/tippy-bundle.umd.js"></script> 
+    <script>
+            var group = [];
+            group[0] = tippy('#icon-github', {
+                content: 'GitHub'
+            })[0];
+            group[1] = tippy('#icon-twitter', {
+                content: 'Twitter'
+            })[0];
+            group[2] = tippy('#icon-thingiverse', {
+                content: 'Thingiverse'
+            })[0];
+
+            tippy.createSingleton(group, {
+                delay: [0, 75],
+                moveTransition: 'transform 0.175s ease-out',
+                theme: 'main',
+                placement: 'left'
+            });
+    </script>
     <style>::-webkit-scrollbar{width:0px;}</style>
 </body>
 </html>
