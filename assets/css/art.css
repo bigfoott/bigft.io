@@ -4,10 +4,12 @@
 
 .is-art {
     background-color: var(--card-background-color);
+    border-radius: 6px;
 }
 
 .art-banner {
     overflow: hidden;
+    border-radius: 6px 6px 0 0;
 }
 .art-banner > img {
 	transition: transform 0.3s;

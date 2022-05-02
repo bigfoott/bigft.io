@@ -45,13 +45,13 @@
 				?>
 				<div class="column is-5">
 					<div class="is-art">
-						<a href="<?= $artOrder[$i] ?>">
-							<div class="art-banner"><img src="<?= $artOrder[$i] ?>/banner.png"></div>
+						<a href="/art/<?= $artOrder[$i] ?>">
+							<div class="art-banner"><img src="/art/<?= $artOrder[$i] ?>/banner.png"></div>
 						</a>
 						<div class="art-banner-bottom">
 							<h1 class="title is-size-5-tablet is-size-7-mobile"><?= $info->name ?></h1>
 							<div class="art-banner-buttons is-hidden-mobile">
-								<a href="<?= $artOrder[$i] ?>" class="button is-small"><span class="fas fa-info-circle"></span></a>
+								<a href="/art/<?= $artOrder[$i] ?>" class="button is-small"><span class="fas fa-info-circle"></span></a>
 								<a href="<?= $info->thingiverse ?>" target="_blank" class="button is-small">
 									<span class="fa-stack">
 										<i class="far fa-stack-1x fa-circle" style="font-size: 1.2em;"></i>

@@ -4,10 +4,10 @@
     <i class="fas fa-stack-2x fa-square"></i>
     <i class="fab fa-stack-1x fa-github" style="color: white;"></i>
 </a>
-<a id="icon-twitter" class="fa-stack" target="_blank" href="https://twitter.com/bigfoootttt" title="Twitter">
+<!--<a id="icon-twitter" class="fa-stack" target="_blank" href="https://twitter.com/bigfoootttt" title="Twitter">
     <i class="fas fa-stack-2x fa-square"></i>
     <i class="fab fa-stack-1x fa-twitter" style="color: white;"></i>
-</a>
+</a>-->
 <a id="icon-thingiverse" class="fa-stack" target="_blank" href="https://www.thingiverse.com/bigfoott" title="Thingiverse">
     <i class="fas fa-stack-2x fa-square"></i>
     <i class="far fa-stack-1x fa-circle" style="color: white; font-size: 1.25em;"></i>
@@ -23,10 +23,10 @@
     group[0] = tippy('#icon-github', {
         content: 'GitHub'
     })[0];
-    group[1] = tippy('#icon-twitter', {
+    group[1] = /*tippy('#icon-twitter', {
         content: 'Twitter'
     })[0];
-    group[2] = tippy('#icon-thingiverse', {
+    group[2] = */tippy('#icon-thingiverse', {
         content: 'Thingiverse'
     })[0];
 

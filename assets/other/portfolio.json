@@ -1,5 +1,21 @@
 [
     {
+        "name": "MMM-PokemonGOEvents",
+        "languages": [
+            "JS"
+        ],
+        "desc": "MMM-PokemonGOEvents is a module for [MagicMirror²](https://magicmirror.builders/) that displays [Pokemon GO](https://pokemongolive.com/) events.",
+        "links": [
+            {
+                "name": "Repository",
+                "link": "https://github.com/bigfoott/MMM-PokemonGOEvents",
+                "external": true,
+                "disabled": false
+            }
+        ],
+        "archive": false
+    },
+    {
         "name": "VRSpeed.run",
         "languages": [
             "C#",
@@ -16,12 +32,58 @@
                 "disabled": false
             },
             {
-                "name": "Repos",
+                "name": "Repositories",
                 "link": "https://github.com/VRSpeedruns",
                 "external": true,
                 "disabled": false
             }
-        ]
+        ],
+        "archive": false
+    },
+    {
+        "name": "VR Laser Game",
+        "languages": [
+            "C#"
+        ],
+        "desc": "My VR Laser Game project is something I've been working on on-and-off since late 2018. It's a virtual reality puzzle game that makes use of the six degrees of freedom provided by VR to create a unique experience.\n\nI've tried a few times to make the game, with my most successful attempt being my final project to get my Associate's in Computer Science (before moving on to a 4-year college to get my Bachelor's).",
+        "links": [
+            {
+                "name": "Iteration 1",
+                "link": "https://twitter.com/i/events/1074572092190937088",
+                "external": true,
+                "disabled": false
+            },
+            {
+                "name": "Iteration 2",
+                "link": "https://twitter.com/i/events/1133522754345607169",
+                "external": true,
+                "disabled": false
+            },
+            {
+                "name": "Iteration 3 (Demo Video)",
+                "link": "/",
+                "external": true,
+                "disabled": true
+            }
+        ],
+        "archive": false
+    },
+    {
+        "name": "URBot",
+        "languages": [
+            "C#",
+            "HTML/CSS"
+        ],
+        "desc": "URBot is a verified [Discord](https://discord.com/) bot made for the roleplaying web show [URealms](https://urealms.com/).\n\nI stopped maintaining this bot in October 2019, however for now the bot is still active and can be added to new servers.",
+        "links": [
+            {
+                "name": "Site",
+                "link": "https://bigft.io/urbot",
+                "external": false,
+                "disabled": false
+            }
+        ],
+        "archive": false
     },
     {
         "name": "BigftioBot",
@@ -40,28 +102,13 @@
                 "disabled": true
             },
             {
-                "name": "Repo",
+                "name": "Repository",
                 "link": "https://github.com/bigfoott/BigftioBot",
                 "external": true,
                 "disabled": false
             }
-        ]
-    },
-    {
-        "name": "URBot",
-        "languages": [
-            "C#",
-            "HTML/CSS"
         ],
-        "desc": "URBot is a verified [Discord](https://discord.com/) bot made for the roleplaying web show [URealms](https://urealms.com/).\n\nI stopped maintaining this bot in October 2019, however for now the bot is still active and can be added to new servers.",
-        "links": [
-            {
-                "name": "Site",
-                "link": "https://bigft.io/urbot",
-                "external": false,
-                "disabled": false
-            }
-        ]
+        "archive": true
     },
     {
         "name": "FCDisplay",
@@ -71,27 +118,29 @@
         "desc": "FCDisplay was a mod for [Beat Saber](https://beatsaber.com/) that added a visual element to the game when the user hasn't missed a note.\n\nI stopped maintaining the mod when an official version of this feature was added to the game.",
         "links": [
             {
-                "name": "Repo",
+                "name": "Repository",
                 "link": "https://github.com/bigfoott/FCDisplay",
                 "external": true,
                 "disabled": false
             }
-        ]
+        ],
+        "archive": true
     },
     {
         "name": "ImmersiveMode",
         "languages": [
             "C#"
         ],
-        "desc": "ImmersiveMode was a mod for [Beat Saber](https://beatsaber.com/) that disabled all UI while in a song, either just in-headset, just in the mirror, or both.\n\nI stopped maintaining the mod when an official version of this feature was added to the game.",
+        "desc": "ImmersiveMode was a mod for [Beat Saber](https://beatsaber.com/) that disabled all UI while in a song, either just in-headset, just in the mirror, or both.\n\nI stopped maintaining the mod when an official version of this feature (other than choosing between in-headset, in-mirror, etc.) was added to the game.",
         "links": [
             {
-                "name": "Repo",
+                "name": "Repository",
                 "link": "https://github.com/bigfoott/ImmersiveMode",
                 "external": true,
                 "disabled": false
             }
-        ]
+        ],
+        "archive": true
     },
     {
         "name": "StreamInfo",
@@ -99,7 +148,7 @@
             "C#",
             "HTML/CSS"
         ],
-        "desc": "StreamInfo was a mod for [Beat Saber](https://beatsaber.com/) that allowed players to display game info as an overlay on their streams or videos.\n\nI stopped maintaining the mod when an official version of this feature was added to the game.",
+        "desc": "StreamInfo was a mod for [Beat Saber](https://beatsaber.com/) that allowed players to display game info as an overlay on their streams or videos.\n\nI stopped maintaining the mod due to my lack of knowledge at the time, on top of the release of a better alternative mod ([HTTP Status](https://github.com/opl-/beatsaber-http-status)).",
         "links": [
             {
                 "name": "Site",
@@ -108,11 +157,29 @@
                 "disabled": false
             },
             {
-                "name": "Repo",
+                "name": "Repository",
                 "link": "https://github.com/bigfoott/BeatSaberStreamInfo",
                 "external": true,
                 "disabled": false
             }
-        ]
+        ],
+        "archive": true
+    },
+
+
+    
+    {
+        "name": "Archive",
+        "languages": [],
+        "desc": "My portfolio archive includes old projects that don't necessarily reflect my current abilities, but are still notable enough (or meaningful enough to me) that I still want to feature them in my portfolio.",
+        "links": [
+            {
+                "name": "View the Archive",
+                "link": "https://bigft.io/portfolio/archive",
+                "external": false,
+                "disabled": false
+            }
+        ],
+        "archive": false
     }
 ]
