@@ -1,5 +1,21 @@
 [
     {
+        "name": "ScrapedDuck",
+        "languages": [
+            "JS"
+        ],
+        "desc": "ScrapedDuck is a project that routinely scrapes [LeekDuck.com](https://leekduck.com) and pushes the found data to a branch on the repository, to be used by other external applications.",
+        "links": [
+            {
+                "name": "Repository",
+                "link": "https://github.com/bigfoott/ScrapedDuck",
+                "external": true,
+                "disabled": false
+            }
+        ],
+        "archive": false
+    },
+    {
         "name": "MMM-PokemonGOEvents",
         "languages": [
             "JS"
