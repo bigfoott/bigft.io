@@ -18,8 +18,8 @@
 	<meta name="twitter:image" content="https://bigft.io/images/me.jpg" />
 	<meta name="og:image" content="https://bigft.io/images/me.jpg" />
 	<meta name="og:image:alt" content="Anthony" />
-	<meta name="og:description" content="Hello! I'm Anthony, a Computer Science undergrad from New Jersey with a strong interest in virtual reality." />
-	<meta name="twitter:description" content="Hello! I'm Anthony, a Computer Science undergrad from New Jersey with a strong interest in virtual reality." />
+	<meta name="og:description" content="Hello! I'm Anthony, a software dev from New Jersey with a Bachelor's in Computer Science and an interest in web dev and virtual reality." />
+	<meta name="twitter:description" content="Hello! I'm Anthony, a software dev from New Jersey with a Bachelor's in Computer Science and an interest in web dev and virtual reality." />
 	
 	<link href="/assets/fa/css/all.css" rel="stylesheet">
 	<link rel="stylesheet" href="/assets/css/bulma.min.css">
@@ -55,7 +55,7 @@
                         </div>
                         <div class="column is-6">
                             <div class="bio">
-                                <p>Hello! I'm <b>Anthony</b>, a Computer Science undergrad from New Jersey with a strong interest in virtual reality.</p>
+                                <p>Hello! I'm <b>Anthony</b>, a software dev from New Jersey with a Bachelor's in Computer Science and an interest in web dev and virtual reality.</p>
                                 <p>View my <a href="/portfolio">programming portfolio</a> or check out some of the <a href="/art">3D printed art</a> I've made!</p>
                             </div>
                         </div>
