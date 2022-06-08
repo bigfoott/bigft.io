@@ -1,5 +1,21 @@
 [
     {
+        "name": "PoGOEvents",
+        "languages": [
+            "JS"
+        ],
+        "desc": "PoGOEvents is a [Scriptable](https://scriptable.app/) widget that displays current and upcoming [Pokemon GO](https://pokemongolive.com/) events.\n\nAll event data is gathered from from [ScrapedDuck](https://github.com/bigfoott/ScrapedDuck), which scrapes [LeekDuck.com](https://leekduck.com) periodically.",
+        "links": [
+            {
+                "name": "Repository",
+                "link": "https://github.com/bigfoott/PoGOEvents",
+                "external": true,
+                "disabled": false
+            }
+        ],
+        "archive": false
+    },
+    {
         "name": "ScrapedDuck",
         "languages": [
             "JS"
