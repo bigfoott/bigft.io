@@ -4,7 +4,7 @@
         "languages": [
             "JS"
         ],
-        "desc": "PoGOEvents is a [Scriptable](https://scriptable.app/) widget that displays current and upcoming [Pokemon GO](https://pokemongolive.com/) events.\n\nAll event data is gathered from from [ScrapedDuck](https://github.com/bigfoott/ScrapedDuck), which scrapes [LeekDuck.com](https://leekduck.com) periodically.",
+        "desc": "PoGOEvents is a [Scriptable](https://scriptable.app/) widget that displays current and upcoming [Pokemon GO](https://pokemongolive.com/) events.\n\nAll event data is gathered from [ScrapedDuck](https://github.com/bigfoott/ScrapedDuck), which scrapes [LeekDuck.com](https://leekduck.com) periodically.",
         "links": [
             {
                 "name": "Repository",
@@ -36,7 +36,7 @@
         "languages": [
             "JS"
         ],
-        "desc": "MMM-PokemonGOEvents is a module for [MagicMirror²](https://magicmirror.builders/) that displays [Pokemon GO](https://pokemongolive.com/) events.",
+        "desc": "MMM-PokemonGOEvents is a module for [MagicMirror²](https://magicmirror.builders/) that displays [Pokemon GO](https://pokemongolive.com/) events.\n\nAll event data is gathered from [ScrapedDuck](https://github.com/bigfoott/ScrapedDuck), which scrapes [LeekDuck.com](https://leekduck.com) periodically.",
         "links": [
             {
                 "name": "Repository",
